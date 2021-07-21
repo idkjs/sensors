@@ -16,9 +16,13 @@ clean:
 cleanall: clean
 
 
+.PHONY: schema
+schema: ## loads schema
+	./db/load_schema.sh
 .PHONY: db
 db: ## Inspect db
 	./db/psql.sh
+
 .PHONY: lock
 lock: ## Generate a lock file
 	opam lock -y .
