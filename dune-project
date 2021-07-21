@@ -23,4 +23,10 @@
   (ppx_yojson_conv
    (>= v0.14.0))
   ptime
-  re))
+  re
+  (reason
+   (and
+    (>= 3.6.0)
+    (< 4.0.0)))
+  ;; Dev dependencies
+  (ocaml-lsp-server :dev)))
