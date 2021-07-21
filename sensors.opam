@@ -6,6 +6,7 @@ description:
 depends: [
   "dune" {>= "2.0"}
   "ocaml" {>= "4.11.0"}
+  "dream" {>= "1.0.0~alpha2"}
   "caqti" {>= "1.6.0"}
   "caqti-lwt" {>= "1.6.0"}
   "caqti-driver-postgresql" {>= "1.6.0"}

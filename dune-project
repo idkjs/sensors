@@ -11,6 +11,8 @@
  (depends
   (ocaml
    (>= 4.11.0))
+  (dream
+   (>= 1.0.0~alpha2))
   (caqti
    (>= 1.6.0))
   (caqti-lwt

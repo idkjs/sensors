@@ -3,7 +3,7 @@
 
 server.exe: FORCE
 	@dune build $(DUNEARGS) server/bin/server.exe
-	
+
 install: FORCE
 	@dune install
 
@@ -16,6 +16,9 @@ clean:
 cleanall: clean
 
 
+.PHONY: db
+db: ## Inspect db
+	./db/psql.sh
 .PHONY: lock
 lock: ## Generate a lock file
 	opam lock -y .
