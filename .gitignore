@@ -27,3 +27,30 @@ setup.log
 
 # Local OPAM switch
 _opam/
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+.merlin
+*.install
+*.coverage
+*.sw[lmnop]
+
+_build/
+_doc/
+_coverage/
+_opam/
+
+odoc.css
+bench.tsv
+_esy
+node_modules
+lib/bs
+.bsb.lock
+.melange.eobjs

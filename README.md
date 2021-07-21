@@ -55,7 +55,11 @@ should be able to run the server via
 opam install caqti-driver-postgresql caqti-lwt dream lwt_ppx ppx_yojson_conv ptime re
 dune exec server/bin/server
 ```
-
+or if you have `esy`[installed](https://esy.sh),
+```
+npm install esy && npx esy
+npx esy start
+```
 I built this project with version 4.11.1 of the compiler.
 
 I used [insomnia](https://insomnia.rest/) to make ad-hoc requests

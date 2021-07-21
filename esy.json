@@ -1,0 +1,6 @@
+{
+  "source": "./sensors.opam.locked",
+  "scripts": {
+    "start": "dune exec --root . ./server/bin/server.exe"
+  }
+}
